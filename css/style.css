@@ -1,0 +1,173 @@
+* {
+    scroll-behavior: smooth;
+}
+
+.welcome {
+    width: 100%;
+    height: 99vh;
+    background-color: black;
+    background-image: url(../assets/backgrounds/bg55.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav_font_size {
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+}
+
+.about_icons {
+    width: 3rem;
+    height: 3rem;
+    /* background-color: cadetblue;
+    border-radius: 10px; */
+    margin-top: 20px;
+    margin-left: 10px;
+    align-self: flex-start;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.myborder_rad {
+    display: flex;
+    justify-content: center;
+    border-radius: 700px;
+}
+
+.my_image_background {
+    background-color: gray;
+    background-image: linear-gradient( #1b3346, gray);
+}
+
+.setting_img {
+    max-height: 70vh;
+    margin-bottom: 15px;
+}
+
+
+/*//////////////about//////*/
+
+.about {}
+
+.undertitle {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #1b3346;
+}
+
+.undertitle_bar {
+    width: 7vw;
+    height: 2px;
+    background-color: lightseagreen;
+    margin: auto;
+}
+
+.myservices_card {
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.myservices_card:hover {
+    background-color: rgba(0, 0, 0, 1);
+    transform: scale(1.1, 1.1);
+}
+
+@media only screen and (max-width:2000px) and (min-width: 765px) {
+    .myabout_card {
+        width: 20rem;
+        height: 12rem;
+        /* background-color: #1b3346; */
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin-top: 4vh;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .about_flag_icon {
+        width: 7rem;
+        height: 7rem;
+        border-radius: 70px;
+        background-color: black;
+        transform: translate(0, -70%);
+        align-self: center;
+    }
+    .about_card_item {
+        align-self: center;
+        font-size: 1rem;
+    }
+    .h-100 {
+        height: 100vh !important;
+    }
+    .h-75 {
+        height: 75vh !important;
+    }
+    .h-50 {
+        height: 50vh !important;
+    }
+    .h-25 {
+        height: 25vh !important;
+    }
+    .myservices_card {
+        border-radius: 10px;
+        background-color: white;
+        width: 3rem;
+        height: 3rem;
+        margin: 5px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        font-weight: bold;
+    }
+    .certification_card {
+        width: 40%;
+        max-height: 18rem;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
+
+@media only screen and (max-width:764px) and (min-width: 280px) {
+    .welcome {
+        min-height: 150vh;
+    }
+    .myabout_card {
+        width: 20rem;
+        height: 20rem;
+        /* background-color: #1b3346; */
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin-top: 4vh;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        font-weight: bold;
+    }
+    .about_flag_icon {
+        width: 7rem;
+        height: 7rem;
+        border-radius: 70px;
+        background-color: black;
+        transform: translate(0, -70%);
+        justify-self: flex-start;
+    }
+    .about_card_item {
+        align-self: center;
+        font-size: 1.25rem;
+    }
+    .h-50 {
+        height: 75vh !important;
+    }
+    .myservices_card {
+        border-radius: 10px;
+        width: 3rem;
+        height: 3rem;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .certification_card {
+        width: 95%;
+        max-height: 18rem;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
